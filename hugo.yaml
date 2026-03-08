@@ -1,4 +1,4 @@
-baseURL: 'https://Hypho.github.io/hypho-blog/'
+baseURL: 'https://blog.hypho.cn/'
 languageCode: 'zh-cn'
 title: 'Hypho'
 theme: ['PaperMod']

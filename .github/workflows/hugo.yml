@@ -53,7 +53,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://Hypho.github.io/hypho-blog/"
+            --baseURL "https://blog.hypho.cn/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
