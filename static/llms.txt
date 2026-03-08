@@ -1,0 +1,14 @@
+# Hypho Blog
+
+Personal thoughts on AI, SEO, GEO, and the future of information discovery.
+
+## About
+Hypho is a minimalist blog focused on high-quality technical insights and philosophical reflections in the age of generative engines.
+
+## Key Content
+- [SEO vs GEO: Why AI Search is Changing My Blog Strategy](https://your-username.github.io/posts/my-first-ai-blog/) - Exploring the transition from Traditional Search Engine Optimization (SEO) to Generative Engine Optimization (GEO).
+
+## Navigation
+- [Archives](https://your-username.github.io/archives/)
+- [Search](https://your-username.github.io/search/)
+- [Tags](https://your-username.github.io/tags/)

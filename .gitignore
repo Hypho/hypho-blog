@@ -1,0 +1,14 @@
+# Hugo build artifacts
+public/
+resources/
+.hugo_build.lock
+
+# Binary files
+bin/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
