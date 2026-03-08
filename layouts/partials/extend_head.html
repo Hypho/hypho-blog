@@ -1,8 +1,8 @@
 {{- if or .Params.math .Site.Params.math }}
-{{- /* 使用国内高性能 CDN (Staticfile/字节跳动) 替代 GitHub 海外节点 */}}
-<link rel="stylesheet" href="https://cdn.staticfile.org/KaTeX/0.16.11/katex.min.css">
-<script defer src="https://cdn.staticfile.org/KaTeX/0.16.11/katex.min.js"></script>
-<script defer src="https://cdn.staticfile.org/KaTeX/0.16.11/contrib/auto-render.min.js"
+{{- /* 使用字节跳动高性能国内 CDN (极速加载) */}}
+<link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.16.11/katex.min.css">
+<script defer src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.16.11/katex.min.js"></script>
+<script defer src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.16.11/contrib/auto-render.min.js"
     onload="renderMathInElement(document.body, {
         delimiters: [
             {left: '$$', right: '$$', display: true},
