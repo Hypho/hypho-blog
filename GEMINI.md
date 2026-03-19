@@ -21,7 +21,10 @@ This document serves as the foundational guide for any AI agent interacting with
 - **Metadata**: Every post should include `description` and `tags` in Front Matter.
 - **Social**: Default cover image strategy is managed in `hugo.yaml` under `params.images`.
 
-## 4. Maintenance Guidelines
+## 4. Maintenance & Workflow Guidelines
+- **Human-in-the-Loop**: Never delete files (e.g., drafts, assets) without explicit user confirmation. Always verify before destructive actions.
+- **Language**: This is a Chinese blog. All blog posts and primary content must be written in Chinese.
+- **Inbox Workflow**: The `inbox/` directory serves as a draft box for temporary writing materials. Once a post is finalized and confirmed by the user, the corresponding inbox material should be proposed for deletion.
 - **No Redundancy**: Before adding a new feature, check if it compromises the "Minimalist" goal.
 - **Favicons**: Do not delete the placeholder favicons in `static/` unless replacing them with permanent branding.
 - **Build**: Always run `.\bin\hugo.exe` locally to verify changes before pushing to GitHub.
