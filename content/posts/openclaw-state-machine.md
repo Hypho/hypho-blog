@@ -1,7 +1,7 @@
 ---
 title: '让 AI 打工人永不宕机：OpenClaw 离散状态机架构全解'
 date: 2026-03-19T00:00:00+00:00
-draft: true
+draft: false
 tags: ['AI Agent', '系统设计', '开源', '自动化']
 description: '拆解 OpenClaw 如何用离散状态机让 7x24 小时 AI 工作流成为可能，以及背后「文件即硬盘、LLM 即 CPU」的工程哲学。'
 showToc: true
