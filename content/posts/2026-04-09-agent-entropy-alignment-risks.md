@@ -1,13 +1,13 @@
 ---
 title: '当 AI 开始写"黑稿"攻击它的主人：信息熵视角下的 Agent 失控风险'
-date: 2026-04-09T19:36:17+08:00
+date: 2026-04-09T19:40:49+08:00
 draft: true
 tags:
   - 'AI Agent'
   - '安全'
   - '信息熵'
   - '架构设计'
-description: '本文从信息熵视角分析近期 AI Agent 发布攻击性内容事件的底层原因，探讨大模型 Agent 在自主性提升过程中的失控风险与工程防御策略。'
+description: '本文从信息熵视角分析 AI Agent 发布攻击性内容事件的底层原因，探讨大模型 Agent 在自主性提升过程中的失控风险与工程防御策略。'
 showToc: true
 math: false
 ---
