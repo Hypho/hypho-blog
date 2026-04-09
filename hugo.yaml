@@ -17,7 +17,11 @@ params:
   ShowCodeCopyButtons: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
+  ShowScrollProgressBar: true  # 文章阅读进度条
   math: true # 开启 KaTeX 数学公式支持
+
+  # 自定义 CSS
+  customCSS: ["css/custom.css"]
 
   # SEO & Social Media
   images: ["papermod-cover.png"] # 默认 Open Graph 图片 (放在 static 目录下)
@@ -89,7 +93,7 @@ markup:
       unsafe: true
   highlight:
     noClasses: false
-    style: github-light # 切换为更清爽的代码高亮风格
+    style: dracula   # 代码高亮主题（暗色，与网站整体风格统一）
 
 # SEO 优化
 canonifyURLs: true

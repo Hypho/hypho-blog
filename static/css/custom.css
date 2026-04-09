@@ -1,0 +1,475 @@
+/* ============================================
+   Hypho Blog — Custom Brand Styles
+   PaperMod Enhancement Layer
+   ============================================ */
+
+/* --- Brand Color Palette ---
+   Primary:   #6366f1 (Indigo) — distinctive, tech, memorable
+   Secondary: #0891b2 (Cyan) — complements indigo
+   Accent:    #f59f0b (Amber) — warm contrast for CTAs/highlights
+   Background: #fafafa (near-white)
+   Text:      #1e1e2e (near-black, slightly warm)
+   Code BG:   #1e1e2e (dark, matches popular themes)
+   ------------------------------------------- */
+
+/* Reading Progress Bar */
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, #6366f1, #0891b2);
+    z-index: 9999;
+    transition: width 0.1s ease-out;
+}
+
+/* ============================================
+   HEADER & NAV
+   ============================================ */
+
+.top-nav {
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.top-nav a {
+    transition: color 0.2s ease;
+}
+
+.top-nav a:hover {
+    color: #6366f1 !important;
+}
+
+/* ============================================
+   HOMEPAGE — ENTRY CARDS
+   ============================================ */
+
+.post-entry {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 16px;
+    background: var(--entry);
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.post-entry::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #6366f1, #0891b2);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+.post-entry:hover {
+    border-color: #6366f1;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.12);
+    transform: translateY(-2px);
+}
+
+.post-entry:hover::before {
+    opacity: 1;
+}
+
+.post-entry h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.post-entry .post-meta {
+    color: #6366f1;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* ============================================
+   POST SINGLE — ARTICLE TYPOGRAPHY
+   ============================================ */
+
+.post-content {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: var(--content);
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    color: var(--primary);
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+    line-height: 1.3;
+}
+
+.post-content h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid var(--border);
+}
+
+.post-content h3 {
+    font-size: 1.2rem;
+}
+
+.post-content p {
+    margin-bottom: 1.2em;
+}
+
+.post-content a {
+    color: #6366f1;
+    text-decoration: underline;
+    text-decoration-color: rgba(99, 102, 241, 0.3);
+    text-underline-offset: 3px;
+    transition: all 0.2s ease;
+}
+
+.post-content a:hover {
+    color: #0891b2;
+    text-decoration-color: rgba(8, 145, 178, 0.4);
+}
+
+/* Blockquotes */
+.post-content blockquote {
+    border-left: 4px solid #6366f1;
+    margin: 1.5em 0;
+    padding: 12px 20px;
+    background: rgba(99, 102, 241, 0.05);
+    border-radius: 0 8px 8px 0;
+    color: var(--secondary);
+    font-style: italic;
+}
+
+/* Tables */
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 0.95rem;
+}
+
+.post-content th {
+    background: linear-gradient(135deg, #6366f1, #0891b2);
+    color: white;
+    padding: 10px 16px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.post-content td,
+.post-content tr {
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+}
+
+.post-content tr:nth-child(even) {
+    background: rgba(99, 102, 241, 0.03);
+}
+
+/* ============================================
+   CODE BLOCKS — Tokyo Night Inspired
+   ============================================ */
+
+.post-content pre,
+div.highlight pre {
+    background: #1e1e2e !important;
+    border-radius: 10px;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    padding: 20px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.post-content code {
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+    font-size: 0.875em;
+}
+
+.post-content :not(pre) > code {
+    background: rgba(99, 102, 241, 0.1);
+    color: #6366f1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+[data-theme="dark"] .post-content :not(pre) > code {
+    background: rgba(99, 102, 241, 0.2);
+    color: #a5b4fc;
+}
+
+/* ============================================
+   TABLE OF CONTENTS
+   ============================================ */
+
+.toc {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    background: var(--entry);
+}
+
+.toc details summary {
+    font-weight: 700;
+    cursor: pointer;
+    color: #6366f1;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 12px;
+}
+
+.toc ul li {
+    padding: 4px 0;
+}
+
+.toc ul li a {
+    color: var(--secondary);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.toc ul li a:hover {
+    color: #6366f1;
+}
+
+/* ============================================
+   HOME INFO HERO
+   ============================================ */
+
+.home-info {
+    text-align: center;
+    padding: 48px 24px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+}
+
+.home-info h1 {
+    font-size: 2.5rem !important;
+    font-weight: 800;
+    background: linear-gradient(135deg, #6366f1, #0891b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 12px !important;
+}
+
+.home-info .home-content {
+    color: var(--secondary);
+    font-size: 1.1rem;
+}
+
+/* ============================================
+   TAGS
+   ============================================ */
+
+.tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: rgba(99, 102, 241, 0.1);
+    color: #6366f1;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background: #6366f1;
+    color: white;
+    border-color: #6366f1;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.site-footer {
+    border-top: 1px solid var(--border);
+    padding: 24px;
+    text-align: center;
+    color: var(--secondary);
+    font-size: 0.875rem;
+}
+
+/* ============================================
+   DARK MODE ADJUSTMENTS
+   ============================================ */
+
+[data-theme="dark"] .post-entry:hover {
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.2);
+}
+
+[data-theme="dark"] .post-content blockquote {
+    background: rgba(99, 102, 241, 0.08);
+}
+
+[data-theme="dark"] .post-content tr:nth-child(even) {
+    background: rgba(99, 102, 241, 0.05);
+}
+
+/* ============================================
+   HOMEPAGE — MAGAZINE GRID LAYOUT
+   ============================================ */
+
+.home-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* HERO CARD — first post */
+.hero-entry {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    background: var(--entry);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.hero-entry:hover {
+    border-color: #6366f1;
+    box-shadow: 0 8px 32px rgba(99, 102, 241, 0.15);
+    transform: translateY(-3px);
+}
+
+.hero-entry .hero-content {
+    padding: 32px 36px;
+}
+
+.hero-label {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #6366f1;
+    background: rgba(99, 102, 241, 0.1);
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+}
+
+.hero-title {
+    font-size: 1.7rem !important;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 16px !important;
+}
+
+.hero-title a {
+    color: var(--primary);
+    text-decoration: none;
+    background: linear-gradient(135deg, var(--primary) 0%, #6366f1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 0.2s ease;
+}
+
+.hero-entry:hover .hero-title a {
+    background: linear-gradient(135deg, #6366f1 0%, #0891b2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-entry .entry-content p {
+    color: var(--secondary);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.hero-entry .entry-footer {
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+}
+
+/* GRID CARDS — remaining posts */
+.home-grid .post-entry {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+/* 2-column grid for remaining posts on larger screens */
+@media (min-width: 768px) {
+    .home-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* Hero spans full width */
+    .hero-entry {
+        grid-column: 1 / -1;
+    }
+
+    /* Remaining posts in 2-col grid */
+    .home-grid > .post-entry:nth-child(n+2) {
+        min-height: 180px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-content {
+        max-width: 800px;
+    }
+
+    .hero-title {
+        font-size: 2rem !important;
+    }
+}
+
+/* ============================================
+   MOBILE RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+    .home-info h1 {
+        font-size: 2rem !important;
+    }
+
+    .post-entry {
+        padding: 16px;
+    }
+
+    .post-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .hero-entry .hero-content {
+        padding: 20px;
+    }
+
+    .hero-title {
+        font-size: 1.3rem !important;
+    }
+}
