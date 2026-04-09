@@ -105,9 +105,7 @@ sitemap:
   priority: 0.7
   filename: sitemap.xml
 
-# 文章永久链接：/posts/slug/（简洁，去掉日期前缀）
+# 文章永久链接：/posts/slug/（从文件名取 slug，无中文）
 permalinks:
-  posts: /posts/:slug/
+  posts: /posts/:contentbasename/
 
-# 版权信息
-copyright: "© {year} <a href='https://blog.hypho.cn/'>Hypho</a> · 关注 AI、SEO/GEO 与未来信息发现"

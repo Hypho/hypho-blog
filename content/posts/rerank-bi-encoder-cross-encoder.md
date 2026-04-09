@@ -1,6 +1,6 @@
 ---
 title: '为什么向量检索还需要重排？一文读懂 Bi-Encoder 与 Cross-Encoder 的底层逻辑'
-date: 2026-03-19
+date: 2026-03-19T00:00:00+00:00
 draft: false
 tags: ['RAG', 'Vector Search/向量检索', 'Rerank/重排', 'LLM', 'AI Architecture']
 description: '从信息论与算力权衡的视角，深度解析 RAG 系统中召回与重排的技术本质，并提供混合检索架构的最佳实践。'

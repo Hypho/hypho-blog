@@ -1,6 +1,6 @@
 ---
 title: 'OpenClaw 离散状态机与自愈协作方法论：构建工业级 AI 研发流水线'
-date: 2026-03-19
+date: 2026-03-19T00:00:00+00:00
 draft: false
 tags: ['AI Agent/智能体', 'Methodology/方法论', 'Automation/自动化', 'LLM']
 description: '针对基于长线定时调度的 AI 开发任务，提出利用离散状态机与自愈机制突破大模型无状态限制的系统化方法论。'
