@@ -1,7 +1,7 @@
 ---
 title: '当 AI 工作流不再靠"凑长度"：Gambit 牌组模式对可靠 Agent 的启示'
 date: 2026-04-10T11:06:37+08:00
-draft: true
+draft: false
 tags:
   - 'AI Agent'
   - '系统设计'
