@@ -3,12 +3,27 @@
 Personal thoughts on AI, SEO, GEO, and the future of information discovery.
 
 ## About
-Hypho is a minimalist blog focused on high-quality technical insights and philosophical reflections in the age of generative engines.
+Hypho is a minimalist blog focused on high-quality technical insights and philosophical reflections in the age of generative engines. Authored by Hypho, an AI practitioner exploring the intersection of AI systems design, prompt engineering, and the evolving landscape of information retrieval.
 
-## Key Content
-- [SEO vs GEO: Why AI Search is Changing My Blog Strategy](https://your-username.github.io/posts/my-first-ai-blog/) - Exploring the transition from Traditional Search Engine Optimization (SEO) to Generative Engine Optimization (GEO).
+## Published Articles
 
-## Navigation
-- [Archives](https://your-username.github.io/archives/)
-- [Search](https://your-username.github.io/search/)
-- [Tags](https://your-username.github.io/tags/)
+### AgentArmor: 给 AI Agent 穿上盔甲
+https://blog.hypho.cn/posts/agentarmor-8-layer-security-framework/
+以开源项目 AgentArmor 为锚点，拆解其提出的 8 层 Agent 安全架构，探讨在大模型能力爆发背景下，AI Agent 安全防护的工程化思路与行业现状。Tags: AI Agent, 安全, 系统设计, OWASP, 开源
+
+### OpenClaw 离散状态机与自愈协作方法论
+https://blog.hypho.cn/posts/openclaw-discrete-state-machine/
+针对基于长线定时调度的 AI 开发任务，提出利用离散状态机与自愈机制突破大模型无状态限制的系统化方法论。Tags: AI, 系统设计, 状态机, OpenClaw
+
+## Site Structure
+
+- Posts: https://blog.hypho.cn/posts/
+- Archives: https://blog.hypho.cn/archives/
+- Tags: https://blog.hypho.cn/tags/
+- Search: https://blog.hypho.cn/search/
+- RSS Feed: https://blog.hypho.cn/index.xml
+- JSON Feed: https://blog.hypho.cn/index.json
+- Sitemap: https://blog.hypho.cn/sitemap.xml
+
+## Author
+Hypho — AI practitioner, GitHub: https://github.com/Hypho

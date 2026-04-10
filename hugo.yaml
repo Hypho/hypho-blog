@@ -10,6 +10,15 @@ params:
   keywords: ['AI', 'GEO', 'SEO', 'Generative AI', 'Deep Learning', 'Blog']
   author: 'Hypho'
   
+  analytics:
+    google:
+      SiteVerificationTag: "jAmYAvL3Y5Vob1EkljB7viQInTPTU6RJEIOpuIxE-54"
+  
+  schema:
+    publisherType: Person
+    sameAs:
+      - "https://github.com/Hypho"
+
   # 风格设置
   defaultTheme: auto
   ShowReadingTime: true
