@@ -86,6 +86,10 @@ menu:
     - identifier: tags
       name: 标签
       url: /tags/
+      weight: 30
+    - identifier: about
+      name: 关于
+      url: /about/
       weight: 40
 
 # 搜索功能支持
