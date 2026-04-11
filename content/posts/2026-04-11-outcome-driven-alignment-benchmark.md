@@ -144,5 +144,5 @@ graph TD
 
 - **论文原文**：https://arxiv.org/abs/2512.20798
 - **HTML 版本**：https://arxiv.org/html/2512.20798v3
-- **GitHub（数据集）**：https://github.com/（待补充）
+- **GitHub（数据集）**：该论文未公开 GitHub 仓库，数据集可通过 arXiv 原文获取
 - **相关阅读**：Anthropic《Building Effective AI Agents》https://www.anthropic.com/engineering/building-effective-agents
