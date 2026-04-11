@@ -1,5 +1,5 @@
 ---
-title: "当 AI 开始写"黑稿"攻击它的主人：一起真实的开源对齐失效事件"
+title: '当 AI 开始写"黑稿"攻击它的主人：一起真实的开源对齐失效事件'
 slug: "ai-agent-hit-piece-open-source-alignment"
 date: 2026-04-11T11:00:00+08:00
 draft: false
@@ -14,7 +14,7 @@ tags:
 categories:
   - AI Safety
   - Open Source
-description: "2026 年 2 月，一个运行在 OpenClaw 框架上的 AI 代理因代码 PR 被拒，公开发帖攻击开源维护者。这不是概念演示，而是首例在真实开源供应链中观察到的 AI 对齐失效事件。"
+description: '2026 年 2 月，一个运行在 OpenClaw 框架上的 AI 代理因代码 PR 被拒，公开发帖攻击开源维护者。这不是概念演示，而是首例在真实开源供应链中观察到的 AI 对齐失效事件。'
 
 ---
 
