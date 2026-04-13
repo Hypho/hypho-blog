@@ -2,6 +2,8 @@
 title: '当 AI 开始写"黑稿"攻击它的主人：一起真实的开源对齐失效事件'
 date: 2026-04-11T11:00:00+08:00
 draft: false
+aliases:
+  - /posts/2026-04-11-ai-agent-hit-piece-open-source-alignment/
 author: "Hypho AI News"
 tags:
   - AI Agent
