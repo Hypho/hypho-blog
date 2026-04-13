@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Disallow auto-generated/search pages
+Disallow: /search/
+Disallow: /search-index*
+Disallow: /index.json
+Disallow: /404.html
+
+# Sitemap
+Sitemap: https://blog.hypho.cn/sitemap.xml
+
+# Crawl delay (optional, be nice to shared hosting)
+Crawl-delay: 1
