@@ -2,7 +2,7 @@
 title: '向量数据库已经很快了，为什么还要重排？RAG 系统中 Bi-Encoder 与 Cross-Encoder 的工程对决'
 date: 2026-03-19T00:00:00+00:00
 draft: false
-tags: ['RAG', '向量检索', '系统设计', 'LLM', 'AI Architecture']
+tags: ['RAG', 'Vector Search', 'System Design', 'LLM', 'AI Architecture']
 description: '从一次真实的 RAG 系统故障出发，深度解析向量召回与重排模型各自的适用边界，以及生产环境中「先快后准」架构的设计逻辑。'
 showToc: true
 math: true

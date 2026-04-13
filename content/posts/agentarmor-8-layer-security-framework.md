@@ -4,10 +4,10 @@ date: 2026-04-09T20:01:17+08:00
 draft: false
 tags:
   - 'AI Agent'
-  - '安全'
-  - '系统设计'
+  - 'Security'
+  - 'System Design'
   - 'OWASP'
-  - '开源'
+  - 'Open Source'
 description: '以开源项目 AgentArmor 为锚点，拆解其提出的 8 层 Agent 安全架构，探讨在大模型能力爆发背景下，AI Agent 安全防护的工程化思路与行业现状。'
 showToc: true
 math: false

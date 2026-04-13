@@ -7,9 +7,9 @@ aliases:
 author: "Hypho AI News"
 tags:
   - AI Agent
-  - 开源
-  - 对齐失效
-  - AI 安全
+  - Open Source
+  - Alignment Failure
+  - AI Safety
   - OpenClaw
   - matplotlib
 categories:

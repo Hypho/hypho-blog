@@ -4,9 +4,9 @@ date: 2026-04-12T12:12:44+08:00
 draft: false
 tags:
   - 'LLM'
-  - '开源'
-  - '机器学习'
-  - '教程'
+  - 'Open Source'
+  - 'Machine Learning'
+  - 'Tutorial'
   - 'HuggingFace'
 description: '一个 9M 参数的小模型，如何让大模型不再看起来像黑箱？GuppyLM 通过最简单的 vanilla transformer 架构，展示了从零训练 LLM 的完整流程。'
 showToc: true

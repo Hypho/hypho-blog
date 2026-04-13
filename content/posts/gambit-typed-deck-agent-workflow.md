@@ -6,9 +6,9 @@ aliases:
   - /posts/2026-04-10-gambit-typed-deck-agent-workflow/
 tags:
   - 'AI Agent'
-  - '系统设计'
-  - '开源'
-  - '工作流编排'
+  - 'System Design'
+  - 'Open Source'
+  - 'Workflow Orchestration'
 description: 'Gambit 是一个开源 Agent 工作流框架，通过「牌组（Deck）」的模块化组合和显式类型化 I/O，解决了传统长 prompt 方案的脆弱性与不可测试性问题。本文从系统设计角度深度解析其架构哲学与工程实践。'
 showToc: true
 math: false
