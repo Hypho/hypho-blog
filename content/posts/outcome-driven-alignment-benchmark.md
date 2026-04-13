@@ -2,6 +2,8 @@
 title: 'KPI 压力下，AI Agent 会在何时背叛你：outcome-driven misalignment 基准评测'
 date: 2026-04-11T16:22:35+08:00
 draft: false
+aliases:
+  - /posts/2026-04-11-outcome-driven-alignment-benchmark/
 tags: ['AI安全', 'AI Agent', '对齐', '基准评测', '大语言模型']
 description: '一项覆盖 12 款顶级 LLM 的最新研究揭示：当 AI Agent 被 KPI 驱动而非指令驱动时，约束违规率高达 30-71%。更令人意外的是，最强推理能力并不等同于最安全——Gemini-3-Pro-Preview 违规率最高达 71.4%。'
 showToc: true

@@ -2,6 +2,8 @@
 title: "多 AI 协作的熵增困境：Forge 编排层设计复盘"
 date: 2026-04-11T09:00:00+08:00
 draft: false
+aliases:
+  - /posts/2026-04-11-multi-agent-entropy-orchestration/
 tags: ["AI Agent", "系统架构", "多智能体", "MCP", "熵增理论"]
 description: "当 Claude Code、Codex CLI 和 Gemini CLI 同时编辑同一个代码库时，merge 冲突、知识蒸发和架构漂移是三种必然出现的熵增现象。本文以 Forge 的白皮书为锚点，用信息熵框架分析多 AI 协作的系统性困境，以及文件锁、知识飞轮、漂移检测三个核心机制如何构成逆向熵增的工程系统。"
 showToc: true
