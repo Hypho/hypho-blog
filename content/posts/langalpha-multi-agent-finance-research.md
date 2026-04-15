@@ -1,6 +1,6 @@
 ---
 title: 'LangAlpha：把 Claude Code 思维搬进金融投研，多智能体沙盒复利研究实战'
-date: 2026-04-16T09:00:00+08:00
+date: 2026-04-15T10:00:00+08:00
 draft: false
 tags: ['AI Agent', 'Multi-Agent', 'Financial Tech', 'LLM', 'Python']
 description: 'LangAlpha 是将 AI Agent 思维系统性引入金融投研的开源框架，通过持久化工作空间、编程式工具调用（PTC）和 Agent Swarm 架构，让 AI 研究自然复利累积。本文深入解析其核心技术设计：LLM 写 Python 在云端沙盒执行、多层数据供给链、以及 23 个预置投研技能如何在多会话间持续构建认知资产。'
