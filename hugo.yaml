@@ -6,7 +6,7 @@ theme: ['PaperMod']
 params:
   env: 'production'
   title: 'Hypho'
-  description: '关于 AI、SEO/GEO 及未来信息发现的极简思考'
+  description: '聚焦 AI、Agent、SEO/GEO 与信息发现的中文技术博客，记录工具评测、研究解读与工程实践。'
   keywords: ['AI', 'GEO', 'SEO', 'Generative AI', 'Deep Learning', 'Blog']
   author: 'Hypho'
   
@@ -49,12 +49,12 @@ params:
   # 首页设置 (极简主义风格)
   homeInfoParams:
     Title: "Hypho"
-    Content: '个人思考'
+    Content: '聚焦 AI、Agent、SEO/GEO 与信息发现的中文技术博客。这里发布工具评测、研究解读与工程实践，优先让文章页成为搜索入口。'
 
   # 社交链接 (保留必要项)
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Hypho"
     - name: rss
       url: "index.xml"
 

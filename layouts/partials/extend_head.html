@@ -5,6 +5,17 @@
 <!-- Custom brand stylesheet -->
 <link rel="stylesheet" href="/css/custom.css">
 
+{{- /*
+Keep low-value aggregate pages crawlable but out of the index so article pages
+carry the main search signals.
+*/ -}}
+{{- $isSearchPage := eq .RelPermalink "/search/" -}}
+{{- $isArchivesPage := eq .RelPermalink "/archives/" -}}
+{{- $isTaxonomyPage := or (eq .Kind "taxonomy") (eq .Kind "term") -}}
+{{- if or $isSearchPage $isArchivesPage $isTaxonomyPage -}}
+<meta name="robots" content="noindex,follow">
+{{- end -}}
+
 {{- /* Mermaid 图表支持 - 全局加载 */}}
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
