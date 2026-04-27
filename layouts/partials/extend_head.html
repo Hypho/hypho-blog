@@ -9,10 +9,12 @@
 Keep low-value aggregate pages crawlable but out of the index so article pages
 carry the main search signals.
 */ -}}
-{{- $isSearchPage := eq .RelPermalink "/search/" -}}
-{{- $isArchivesPage := eq .RelPermalink "/archives/" -}}
-{{- $isTaxonomyPage := or (eq .Kind "taxonomy") (eq .Kind "term") -}}
-{{- if or $isSearchPage $isArchivesPage $isTaxonomyPage -}}
+{{- $path := .RelPermalink -}}
+{{- $isSearchPage := or (eq $path "/search") (eq $path "/search/") -}}
+{{- $isArchivesPage := or (eq $path "/archives") (eq $path "/archives/") -}}
+{{- $isTagsRoot := or (eq $path "/tags") (eq $path "/tags/") -}}
+{{- $isTaxonomyPage := or (eq .Kind "taxonomy") (eq .Kind "term") (eq .Kind "taxonomyTerm") -}}
+{{- if or $isSearchPage $isArchivesPage $isTagsRoot $isTaxonomyPage -}}
 <meta name="robots" content="noindex,follow">
 {{- end -}}
 
