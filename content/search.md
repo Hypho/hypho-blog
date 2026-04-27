@@ -3,4 +3,5 @@ title: "搜索"
 layout: "search"
 summary: "search"
 placeholder: "搜索博文..."
+robotsNoIndex: true
 ---
