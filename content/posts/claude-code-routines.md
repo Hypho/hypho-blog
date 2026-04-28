@@ -6,6 +6,8 @@ tags: ['AI Agent', 'Claude Code', 'Developer Tools', 'Automation', 'LLM']
 description: 'Claude Code Routines 是 Anthropic 为 Claude Code 推出的自动化执行框架，让开发者通过 YAML 配置定义定时任务、GitHub 事件触发和 API 调用，在云端基础设施上自动运行重复性工作。Stars 114k 的明星项目实战深度解析。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-16-claude-code-routines/
 ---
 
 ## 真实案例引入：深夜 11 点的 PR 终于有人 review 了

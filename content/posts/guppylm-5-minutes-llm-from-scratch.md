@@ -11,6 +11,8 @@ tags:
 description: '一个 9M 参数的小模型，如何让大模型不再看起来像黑箱？GuppyLM 通过最简单的 vanilla transformer 架构，展示了从零训练 LLM 的完整流程。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-12-guppylm-5-minutes-llm-from-scratch/
 ---
 
 昨天在 HN 上看到一个很有想法的项目：作者在 5 分钟内，用一个 Colab 笔记本，从零训练出了一个 9M 参数的语言模型 GuppyLM。

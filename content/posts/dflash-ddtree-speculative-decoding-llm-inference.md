@@ -6,6 +6,8 @@ tags: ['LLM Inference', 'Speculative Decoding', 'CUDA', 'Qwen', 'Consumer GPU']
 description: 'DFlash 块扩散草稿 + DDTree 树验证，在单张 RTX 3090 上把 Qwen3.5-27B Q4_K_M 推到 207 tok/s，比自回归解码快 5.46 倍。Lucebox 项目开源了首个 GGUF 版本的 DFlash 实现，揭开消费级 GPU 跑大模型推理的新思路。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-21-dflash-ddtree-speculative-decoding-llm-inference/
 ---
 
 一个 27B 参数的大模型，在一张 2021 年买的游戏显卡上能跑多快？

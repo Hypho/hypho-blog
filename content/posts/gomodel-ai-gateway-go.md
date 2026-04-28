@@ -6,6 +6,8 @@ tags: ['AI Gateway', 'Go', 'Open Source', 'LLM', 'Infrastructure']
 description: '一个华沙的独立开发者用 4 个月时间写了一个 AI 网关项目 GoModel，支持 11 家模型供应商、语义缓存和 Guardrails，GitHub 获 511 Stars。本文解析它的架构设计和实用价值。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-23-gomodel-ai-gateway-go/
 ---
 
 如果你在生产环境里接入了两个以上的 LLM 提供商（OpenAI、Anthropic、Gemini、Groq……），大概率已经踩过这些坑：供应商的 API 格式不统一、重试逻辑要写 N 份、想把 Claude 和 GPT 的调用日志合并看也做不到、换个供应商代码要改一大坨。

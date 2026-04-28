@@ -6,6 +6,8 @@ tags: ['AI Agent', 'Local LLM', 'Privacy', 'AMD', 'Open Source']
 description: 'GAIA 是 AMD 开源的全本地 AI Agent 框架，支持 Python 和 C++ 双语言开发，可在 AMD Ryzen AI PC 上利用 NPU+iGPU 硬件加速运行，支持 RAG、语音、视觉多模态，无需云端 API，是企业隐私合规和开发者本地实验的理想选择。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-14-gaia-amd-local-ai-agent-framework/
 ---
 
 ## 真实案例引入：为什么医疗数据不该上云

@@ -6,6 +6,8 @@ tags: ['RAG', 'Vector Search', 'System Design', 'LLM', 'AI Architecture']
 description: '从一次真实的 RAG 系统故障出发，深度解析向量召回与重排模型各自的适用边界，以及生产环境中「先快后准」架构的设计逻辑。'
 showToc: true
 math: true
+aliases:
+  - /posts/2026-03-19-rerank-bi-encoder-cross-encoder/
 ---
 
 ## 一个让工程师失眠的 Bad Case

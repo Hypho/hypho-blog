@@ -6,6 +6,8 @@ tags: ['Prompt Engineering', 'System Design', 'Methodology', 'AI/LLM']
 description: '用信息论中的「熵」概念重新解释为什么大模型会「乱说」，以及 ERA（熵减提示词架构）如何通过五层约束过滤器把输出从不确定性压缩到可控范围。'
 showToc: true
 math: true
+aliases:
+  - /posts/2026-03-19-era-entropy-reduction-prompt-architecture/
 ---
 
 ## 大模型的本质：一只戴着数学面具的随机猴子

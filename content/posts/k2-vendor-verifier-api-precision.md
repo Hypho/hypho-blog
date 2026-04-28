@@ -6,6 +6,8 @@ tags: ['AI Agent', 'LLM', 'ToolCall', 'Benchmark', 'Kimi', 'vLLM', 'SGLang']
 description: 'MoonshotAI开源的K2 Vendor Verifier揭示了一个严重问题：同一套Kimi K2模型，经不同厂商API分发后，toolcall精度差异巨大——官方100%，部分厂商仅76%。问题出在哪？'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-22-k2-vendor-verifier-api-precision/
 ---
 
 你选了一个Kimi K2的第三方API提供商，省了30%的成本。结果线上agent跑着跑着开始乱调用工具——你以为模型有问题，实际是API供应商的工程实现挖的坑。

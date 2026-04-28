@@ -6,6 +6,8 @@ tags: ['AI Agent', 'LLM', 'Open Source', 'Memory', 'MCP']
 description: '每个 LLM 对话都是从零开始——你反复解释你是谁、项目背景是什么、之前踩过什么坑。下一次对话，AI 还是同样犯错。Stash 是一个开源的记忆基础设施，通过 8 阶段认知管道把 AI 的每一次对话经验转化为结构化知识，形成知识图谱和自我模型，让 Agent 在多轮对话中真正"记住"并学习。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-27-stash-open-source-ai-memory-layer/
 ---
 
 你有没有这种感觉：每天早上醒来，前一天学的东西大部分都忘了？

@@ -6,6 +6,8 @@ tags: ['AI Agent', 'Security', 'Open Source', 'DevOps']
 description: 'AI Agent 是非确定性系统，传统的"把密钥直接给程序"模式在它们面前完全失效。Infisical 开源的 Agent Vault 用 HTTP 代理思路重新定义凭证管理——密钥从不离开金库，Agent 只管调用 API。本文深度解析其设计原理、架构细节和实际效果。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-24-agent-vault-open-source-credential-proxy/
 ---
 
 如果你在生产环境跑过 AI Agent，大概率遇到过一个头疼的问题：**Agent 怎么安全地访问那些需要 API Key 的服务？**

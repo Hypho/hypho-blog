@@ -10,6 +10,8 @@ tags:
 description: 'I-DLM 通过提出"自省一致性"概念，解决了扩散语言模型质量低于自回归模型的难题。其核心创新 Introspective Strided Decoding 在单次前向传播中同时完成生成和验证，实现了 3.8 倍吞吐量提升，同时在 15 项基准上追平 Qwen3-8B。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-15-introspective-diffusion-language-models/
 ---
 
 ## 真实案例引入

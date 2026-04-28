@@ -10,6 +10,8 @@ tags:
 description: '微软 TRELLIS.2 是 CVPR 2025 Spotlight 的 SOTA 图片转 3D 技术，官方只有 CUDA 版本。近日有人将其完整移植到 Apple Silicon，M4 Pro 上 3.5 分钟生成 40 万顶点网格，且全程无需 NVIDIA GPU。本文解析移植思路、关键技术细节，以及为什么 Apple Silicon 的统一内存架构在这类任务上比离散 GPU 更合适。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-20-trellis2-apple-silicon-image-to-3d/
 ---
 
 如果你只有一台 Mac 电脑，想从单张图片生成 3D 模型——直到今天，这基本上是个伪需求。市面上最好的开源图片转 3D 技术，几乎全部围绕 NVIDIA CUDA 构建，买不到合适的硬件就等于玩不了。

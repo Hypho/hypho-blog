@@ -6,6 +6,8 @@ tags: ['AI Agent', 'System Design', 'Open Source', 'Automation']
 description: '拆解 OpenClaw 如何用离散状态机让 7x24 小时 AI 工作流成为可能，以及背后「文件即硬盘、LLM 即 CPU」的工程哲学。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-03-19-openclaw-state-machine/
 ---
 
 ## 一个几乎每个团队都踩过的坑

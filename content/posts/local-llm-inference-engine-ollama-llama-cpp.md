@@ -6,6 +6,8 @@ tags: ['LLM', 'Local AI', 'Open Source', 'Inference Engine']
 description: '深入分析 Ollama 与 llama.cpp 的技术差异：Ollama 如何从首个便捷 llama.cpp 封装走向自研劣质后端、性能反不如原版，以及这场争议对本地大模型部署选型的启示。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-18-local-llm-inference-engine-ollama-llama-cpp/
 ---
 
 ## 真实案例引入：一次生产事故揭开的盖子

@@ -10,6 +10,8 @@ tags:
 description: 'Ollama 是最流行的本地 LLM 推理工具，但它的问题被社区诟病已久。本文从许可证归属、性能差距、供应商锁定三个维度深度解析 Ollama 的历史问题，并给出 llama.cpp、LM Studio、Jan 等经过验证的开源替代方案实测对比。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-17-local-llm-ollama-llama-cpp/
 ---
 
 ## 引言：一个「只修皮毛」的工具为什么获得 16 万星

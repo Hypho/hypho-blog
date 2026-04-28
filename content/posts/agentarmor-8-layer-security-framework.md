@@ -11,6 +11,8 @@ tags:
 description: '以开源项目 AgentArmor 为锚点，拆解其提出的 8 层 Agent 安全架构，探讨在大模型能力爆发背景下，AI Agent 安全防护的工程化思路与行业现状。'
 showToc: true
 math: false
+aliases:
+  - /posts/2026-04-09-agentarmor-8-layer-security-framework/
 ---
 
 ## 一个真实的安全事件
