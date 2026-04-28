@@ -12,6 +12,8 @@ description: '以开源项目 AgentArmor 为锚点，拆解其提出的 8 层 Ag
 showToc: true
 math: false
 aliases:
+  - /posts/2026-04-09-ai-agent-hit-piece-security-analysis/
+  - /posts/2026-04-09-agent-entropy-alignment-risks/
   - /posts/2026-04-09-agentarmor-8-layer-security-framework/
 ---
 

@@ -1,11 +1,13 @@
 User-agent: *
 Allow: /
 
-# Disallow auto-generated/search pages
+# Disallow low-value generated/search pages; keep article pages crawlable
 Disallow: /search/
 Disallow: /search-index*
 Disallow: /index.json
 Disallow: /404.html
+Disallow: /tags/
+Disallow: /archives/
 
 # Sitemap
 Sitemap: https://blog.hypho.cn/sitemap.xml

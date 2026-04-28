@@ -1,3 +1,7 @@
+{{- if or .Params.robotsNoIndex (and .IsPage (not (eq .Section "posts"))) (or (eq .Kind "taxonomy") (eq .Kind "term")) }}
+<meta name="robots" content="noindex,follow">
+{{- end }}
+
 <!-- JSON Feed -->
 <link rel="alternate" type="application/json" title="Hypho Blog" href="/index.json">
 <link rel="alternate" type="application/rss+xml" title="Hypho Blog RSS" href="/index.xml">
